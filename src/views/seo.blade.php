@@ -19,8 +19,6 @@ if(!empty($seo['params'])){
 }
 @endphp
 
-<title>{{ $seo['title'] }}</title>
-
 @if(config('seo.seo_status'))
     @if(isset($seo['description']) && $seo['description'])
     <meta name="description" content="{{ $seo['description'] }}" />
